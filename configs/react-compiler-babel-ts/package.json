@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@rspack/cli": "^1.6.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-refresh": "^0.18.0"
+  },
+  "name": "rspack_practice",
+  "module": "src/index.tsx",
+  "private": true,
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack serve"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.27.1",
+    "@babel/plugin-syntax-typescript": "^7.27.1",
+    "@rspack/core": "^1.6.4",
+    "@types/bun": "latest",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "babel-loader": "^10.0.0",
+    "babel-plugin-react-compiler": "^1.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
